@@ -3,7 +3,7 @@
 ![Capture](https://user-images.githubusercontent.com/95254477/157733777-cfdcf2fb-cb6a-44aa-999f-eacc160b6275.PNG)
 
 ## An extension to save important links.
-1 - Copy and Paste a link of user's interest, click on copy.\
+1 - Copy and Paste a link of user's interest, click on SAVE INPUT.\
 2 - The link gets populated on the list of the app's pop-up.\
 3 - The link is kept in local storage and thus doesn't get erased on page refresh or chrome session exits.\
 4 - A button to Delete All links if the user decides so after saving links to an excel sheet fo example.\

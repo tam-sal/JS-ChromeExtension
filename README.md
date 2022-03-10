@@ -8,4 +8,4 @@
 3 - The link is kept in local storage and thus doesn't get erased on page refresh or chrome session exits.\
 4 - A button to Delete All links if the user decides so after saving links to an excel sheet fo example.\
 5 - The Delete All button works with "Double Click" as a way of making sure that the user wants to delete all.\
-6 - Once the Delete All is double clicked, all the links will be erased from localStorage as well.\
+6 - Once the Delete All is double clicked, all the links will be erased from localStorage as well.

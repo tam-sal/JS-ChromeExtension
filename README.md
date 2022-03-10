@@ -1,8 +1,8 @@
-# JS-ChromeExtension\
+# JS-ChromeExtension
 \
 ![Capture](https://user-images.githubusercontent.com/95254477/157733777-cfdcf2fb-cb6a-44aa-999f-eacc160b6275.PNG)
 
-## An extension to save important links.\
+## An extension to save important links.
 1 - Copy and Paste a link of user's interest, click on copy.\
 2 - The link gets populated on the list of the app's pop-up.\
 3 - The link is kept in local storage and thus doesn't get erased on page refresh or chrome session exits.\

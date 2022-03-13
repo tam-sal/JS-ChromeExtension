@@ -9,13 +9,13 @@ const deleteBtn = document.getElementById("delete-btn")
 
 if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
-    renderLeads()
+    render(myLeads)
 }
 
 deleteBtn.addEventListener('dblclick', function(){
     localStorage.clear()
     myLeads = []
-    renderLeads()
+    render(myLeads)
 })
 
 
@@ -23,17 +23,17 @@ inputBtn.addEventListener('click', function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
     localStorage.setItem("myLeads", JSON.stringify(myLeads))
-    renderLeads()
+    render(myLeads)
     
 })
 
-function renderLeads(){
+function render(leads){
     let listItems = ""
-    for(let idx=0; idx < myLeads.length; idx++) {
+    for(let idx=0; idx < leads.length; idx++) {
         
         listItems += `<li>
-                            <a href='${myLeads[idx]}' target = '_blank'>
-                            ${myLeads[idx]}
+                            <a href='${leads[idx]}' target = '_blank'>
+                            ${leads[idx]}
                             </a>
                       </li>`
     }

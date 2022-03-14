@@ -13,7 +13,7 @@ if (leadsFromLocalStorage) {
     render(myLeads)
 }
 
-
+// tabs = [{url: "www.googl.com"}]
 
 tabBtn.addEventListener("click", function(){
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
